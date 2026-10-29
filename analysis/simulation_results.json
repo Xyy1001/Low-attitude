@@ -1,0 +1,67 @@
+{
+  "purpose": "Method validation only. Synthetic estimates are excluded from the empirical findings and are used to show when TWFE can fail.",
+  "design": {
+    "cities": 300,
+    "years": [
+      2007,
+      2019
+    ],
+    "cohort_sizes": {
+      "2010": 80,
+      "2014": 80,
+      "2018": 80,
+      "never": 60
+    },
+    "residual_sd": 0.45
+  },
+  "scenarios": [
+    {
+      "scenario": "Homogeneous effect",
+      "true_att": 0.11999999999999998,
+      "repetitions": 500,
+      "differential_trends": false,
+      "twfe": {
+        "mean": 0.1188657165001127,
+        "bias": -0.0011342834998872842,
+        "rmse": 0.02521420061907879
+      },
+      "not_yet_att": {
+        "mean": 0.12051912296121316,
+        "bias": 0.0005191229612131754,
+        "rmse": 0.04486367977755663
+      }
+    },
+    {
+      "scenario": "Heterogeneous effect",
+      "true_att": 0.08888888888888889,
+      "repetitions": 500,
+      "differential_trends": false,
+      "twfe": {
+        "mean": 0.11985201786997571,
+        "bias": 0.030963128981086815,
+        "rmse": 0.03991471746236538
+      },
+      "not_yet_att": {
+        "mean": 0.08940801185010208,
+        "bias": 0.0005191229612131892,
+        "rmse": 0.04486367977755663
+      }
+    },
+    {
+      "scenario": "Heterogeneous effect and cohort trend",
+      "true_att": 0.08888888888888889,
+      "repetitions": 500,
+      "differential_trends": true,
+      "twfe": {
+        "mean": 0.10961229184257845,
+        "bias": 0.02072340295368956,
+        "rmse": 0.03261792059255198
+      },
+      "not_yet_att": {
+        "mean": 0.059952744894835125,
+        "bias": -0.028936143994053767,
+        "rmse": 0.05338333732335305
+      }
+    }
+  ]
+}

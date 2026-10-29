@@ -1,0 +1,148 @@
+2026-10-29 19:07:18,642 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:07:19,220 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:07:19,750 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:07:20,161 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:07:36,700 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:07:37,333 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:07:37,841 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:07:38,201 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:07:39,563 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 19:07:40,123 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 19:07:40,567 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 19:07:43,209 INFO ln_patent_grants beta=0.7002 (SE 0.0044), N=836
+2026-10-29 19:07:43,427 INFO ln_invention_grants beta=0.9873 (SE 0.0082), N=832
+2026-10-29 19:07:43,740 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 19:07:44,139 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 19:07:44,542 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 19:08:19,430 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:08:19,854 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:08:20,376 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:08:20,822 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:08:22,266 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 19:08:22,717 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 19:08:23,231 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 19:08:24,139 INFO ln_patent_grants beta=0.7002 (SE 0.0044), N=836
+2026-10-29 19:08:24,352 INFO ln_invention_grants beta=0.9873 (SE 0.0082), N=832
+2026-10-29 19:08:24,668 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 19:08:25,064 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 19:08:25,361 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 19:08:50,254 INFO Wrote 21 result rows
+2026-10-29 19:18:15,259 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:18:15,630 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:18:16,025 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:18:16,488 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:18:17,782 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 19:18:18,288 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 19:18:18,708 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 19:18:19,859 INFO ln_patent_grants beta=0.7103 (SE 0.0000), N=812
+2026-10-29 19:18:20,120 INFO ln_invention_grants beta=1.0020 (SE 0.0000), N=808
+2026-10-29 19:18:21,216 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 19:18:22,084 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 19:18:24,175 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 19:18:32,416 INFO Wrote 27 robustness rows
+2026-10-29 19:18:32,416 INFO Matched pretrend p=0.7502
+2026-10-29 19:18:32,416 INFO Synthetic-control result: {'outcome': 'ln_price', 'pre_rmse': 9.199445832768255e-08, 'post_average_gap': 0.0896884558389887, 'pre_average_gap': 8.23115727957965e-08, 'did_gap': 0.0896883735274159, 'effective_controls': 313, 'max_weight': 0.08860969106005787, 'optimizer_success': True, 'interpretation': 'Descriptive synthetic-control gap. No inferential p-value is claimed.'}
+2026-10-29 19:18:45,147 WARNING Dropping non-converged Poisson inference for invention_grants
+2026-10-29 19:18:47,347 INFO Wrote 20 result rows
+2026-10-29 19:20:41,046 INFO Wrote 25 robustness rows
+2026-10-29 19:20:41,046 INFO Matched pretrend p=0.7502
+2026-10-29 19:20:41,047 INFO Synthetic-control result: {'outcome': 'ln_price', 'pre_rmse': 0.0006604031125653773, 'post_average_gap': 0.038381325939399545, 'pre_average_gap': 7.48291701753802e-05, 'did_gap': 0.038306496769224166, 'effective_controls': 17, 'max_weight': 0.12916272813902555, 'optimizer_success': True, 'interpretation': 'Descriptive synthetic-control gap. No inferential p-value is claimed.'}
+2026-10-29 19:28:31,667 INFO Randomization draw 100/1000
+2026-10-29 19:28:31,676 INFO Randomization draw 200/1000
+2026-10-29 19:28:31,684 INFO Randomization draw 300/1000
+2026-10-29 19:28:31,693 INFO Randomization draw 400/1000
+2026-10-29 19:28:31,701 INFO Randomization draw 500/1000
+2026-10-29 19:28:31,709 INFO Randomization draw 600/1000
+2026-10-29 19:28:31,718 INFO Randomization draw 700/1000
+2026-10-29 19:28:31,726 INFO Randomization draw 800/1000
+2026-10-29 19:28:31,735 INFO Randomization draw 900/1000
+2026-10-29 19:28:31,746 INFO Randomization draw 1000/1000
+2026-10-29 19:28:31,748 INFO Fake 2010 treatment beta=0.0581 SE=0.1354
+2026-10-29 19:28:31,748 INFO Randomization two-sided p=0.2857
+2026-10-29 19:43:24,091 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:43:24,491 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:43:24,930 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:43:25,290 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:43:26,773 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 19:43:27,489 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 19:43:28,166 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 19:43:29,229 INFO ln_patent_grants beta=0.7103 (SE 0.0000), N=812
+2026-10-29 19:43:29,368 INFO ln_invention_grants beta=1.0020 (SE 0.0000), N=808
+2026-10-29 19:43:29,787 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 19:43:30,190 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 19:43:30,519 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 19:43:51,330 WARNING Dropping non-converged Poisson inference for invention_grants
+2026-10-29 19:43:53,451 INFO Wrote 20 result rows
+2026-10-29 19:55:48,143 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 19:55:49,121 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 19:55:49,640 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 19:55:49,987 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 19:55:51,549 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 19:55:52,156 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 19:55:52,872 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 19:55:53,850 INFO ln_patent_grants beta=0.7103 (SE 0.0000), N=812
+2026-10-29 19:55:54,012 INFO ln_invention_grants beta=1.0020 (SE 0.0000), N=808
+2026-10-29 19:55:54,370 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 19:55:54,747 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 19:55:55,016 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 19:56:19,174 WARNING Dropping non-converged Poisson inference for invention_grants
+2026-10-29 19:56:21,517 INFO Wrote 20 result rows
+2026-10-29 19:56:42,122 INFO Wrote 25 robustness rows
+2026-10-29 19:56:42,122 INFO Matched pretrend p=0.7502
+2026-10-29 19:56:42,122 INFO Synthetic-control result: {'outcome': 'ln_price', 'pre_rmse': 0.0006604031125653773, 'post_average_gap': 0.038381325939399545, 'pre_average_gap': 7.48291701753802e-05, 'did_gap': 0.038306496769224166, 'effective_controls': 17, 'max_weight': 0.12916272813902555, 'optimizer_success': True, 'interpretation': 'Descriptive synthetic-control gap. No inferential p-value is claimed.'}
+2026-10-29 19:56:44,991 INFO Randomization draw 100/1000
+2026-10-29 19:56:45,000 INFO Randomization draw 200/1000
+2026-10-29 19:56:45,009 INFO Randomization draw 300/1000
+2026-10-29 19:56:45,018 INFO Randomization draw 400/1000
+2026-10-29 19:56:45,028 INFO Randomization draw 500/1000
+2026-10-29 19:56:45,037 INFO Randomization draw 600/1000
+2026-10-29 19:56:45,046 INFO Randomization draw 700/1000
+2026-10-29 19:56:45,055 INFO Randomization draw 800/1000
+2026-10-29 19:56:45,064 INFO Randomization draw 900/1000
+2026-10-29 19:56:45,074 INFO Randomization draw 1000/1000
+2026-10-29 19:56:45,075 INFO Fake 2010 treatment beta=0.0581 SE=0.1354
+2026-10-29 19:56:45,076 INFO Randomization two-sided p=0.2857
+2026-10-29 20:59:05,018 INFO Randomization draw 100/1000
+2026-10-29 20:59:05,028 INFO Randomization draw 200/1000
+2026-10-29 20:59:05,036 INFO Randomization draw 300/1000
+2026-10-29 20:59:05,044 INFO Randomization draw 400/1000
+2026-10-29 20:59:05,053 INFO Randomization draw 500/1000
+2026-10-29 20:59:05,060 INFO Randomization draw 600/1000
+2026-10-29 20:59:05,068 INFO Randomization draw 700/1000
+2026-10-29 20:59:05,076 INFO Randomization draw 800/1000
+2026-10-29 20:59:05,084 INFO Randomization draw 900/1000
+2026-10-29 20:59:05,092 INFO Randomization draw 1000/1000
+2026-10-29 20:59:05,100 INFO Fake 2010 treatment beta=0.0581 SE=0.1354
+2026-10-29 20:59:05,100 INFO Randomization two-sided p=0.2857
+2026-10-29 20:59:22,533 INFO Wrote 25 robustness rows
+2026-10-29 20:59:22,533 INFO Matched pretrend p=0.7502
+2026-10-29 20:59:22,533 INFO Synthetic-control result: {'outcome': 'ln_price', 'pre_rmse': 0.0006604031125653773, 'post_average_gap': 0.038381325939399545, 'pre_average_gap': 7.48291701753802e-05, 'did_gap': 0.038306496769224166, 'effective_controls': 17, 'max_weight': 0.12916272813902555, 'optimizer_success': True, 'interpretation': 'Descriptive synthetic-control gap. No inferential p-value is claimed.'}
+2026-10-29 21:12:50,092 INFO Main sample: 4199 rows, 323 cities
+2026-10-29 21:12:50,525 INFO ln_price TWFE beta=0.1304 (SE 0.1036), N=4198
+2026-10-29 21:12:50,938 INFO ln_area TWFE beta=-0.0564 (SE 0.1120), N=4198
+2026-10-29 21:12:51,374 INFO ln_revenue TWFE beta=0.0662 (SE 0.1535), N=4198
+2026-10-29 21:12:52,939 INFO ln_price event-study pretrend F=4.407 p=0.0007
+2026-10-29 21:12:53,361 INFO ln_area event-study pretrend F=2.289 p=0.0458
+2026-10-29 21:12:53,922 INFO ln_revenue event-study pretrend F=6.800 p=0.0000
+2026-10-29 21:12:55,050 INFO ln_patent_grants beta=0.7103 (SE 0.0000), N=812
+2026-10-29 21:12:55,222 INFO ln_invention_grants beta=1.0020 (SE 0.0000), N=808
+2026-10-29 21:12:55,615 INFO ln_industrial_firms beta=-0.1291 (SE 0.0763), N=3549
+2026-10-29 21:12:56,018 INFO ln_nightlight beta=-0.0228 (SE 0.1762), N=3549
+2026-10-29 21:12:56,396 INFO ln_construction_land beta=-0.0188 (SE 0.0933), N=3520
+2026-10-29 21:13:17,777 WARNING Dropping non-converged Poisson inference for invention_grants
+2026-10-29 21:13:20,189 INFO Wrote 20 result rows
+2026-10-29 21:13:34,783 INFO Wrote 25 robustness rows
+2026-10-29 21:13:34,783 INFO Matched pretrend p=0.7502
+2026-10-29 21:13:34,783 INFO Synthetic-control result: {'outcome': 'ln_price', 'pre_rmse': 0.0006604031125653773, 'post_average_gap': 0.038381325939399545, 'pre_average_gap': 7.48291701753802e-05, 'did_gap': 0.038306496769224166, 'effective_controls': 17, 'max_weight': 0.12916272813902555, 'optimizer_success': True, 'interpretation': 'Descriptive synthetic-control gap. No inferential p-value is claimed.'}
+2026-10-29 21:13:37,676 INFO Randomization draw 100/1000
+2026-10-29 21:13:37,684 INFO Randomization draw 200/1000
+2026-10-29 21:13:37,693 INFO Randomization draw 300/1000
+2026-10-29 21:13:37,700 INFO Randomization draw 400/1000
+2026-10-29 21:13:37,709 INFO Randomization draw 500/1000
+2026-10-29 21:13:37,717 INFO Randomization draw 600/1000
+2026-10-29 21:13:37,725 INFO Randomization draw 700/1000
+2026-10-29 21:13:37,734 INFO Randomization draw 800/1000
+2026-10-29 21:13:37,742 INFO Randomization draw 900/1000
+2026-10-29 21:13:37,750 INFO Randomization draw 1000/1000
+2026-10-29 21:13:37,756 INFO Fake 2010 treatment beta=0.0581 SE=0.1354
+2026-10-29 21:13:37,756 INFO Randomization two-sided p=0.2857

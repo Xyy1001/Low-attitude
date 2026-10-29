@@ -1,0 +1,84 @@
+{
+  "land_identity_residual": 7.852395678131785e-10,
+  "land_identity_note": "Because price equals revenue divided by area in the raw data, log revenue minus log area equals log price before winsorization.",
+  "spillover_radii_estimable": [
+    150,
+    200,
+    300,
+    400,
+    500
+  ],
+  "baseline_standardized_differences": {
+    "log_gdp": 2.4757540413097057,
+    "log_population": 1.5107149044673884,
+    "secondary_share": -0.304992163600762,
+    "airport_count": 0.2232648509443888,
+    "heliport_count": -0.18557323103862702,
+    "log_price": 1.584598830668105
+  },
+  "exposure_interactions": {
+    "Airports within 25 km": {
+      "coef": -0.2272345077458214,
+      "ci_low": -0.5154328582050756,
+      "ci_high": 0.060963842713432775
+    },
+    "Airports within 50 km": {
+      "coef": -0.004628736515585185,
+      "ci_low": -0.1513725144334573,
+      "ci_high": 0.14211504140228695
+    },
+    "Large or medium airports within 50 km": {
+      "coef": -0.06444263843279123,
+      "ci_low": -0.29493761573812544,
+      "ci_high": 0.16605233887254295
+    },
+    "Heliports within 50 km": {
+      "coef": -0.010333887909809462,
+      "ci_low": -0.026429524257870124,
+      "ci_high": 0.005761748438251198
+    },
+    "Any airport within 50 km": {
+      "coef": -0.039024670918299476,
+      "ci_low": -0.3287096466030895,
+      "ci_high": 0.25066030476649054
+    },
+    "Any heliport within 50 km": {
+      "coef": -0.009635465595136694,
+      "ci_low": -0.024643268235910707,
+      "ci_high": 0.005372337045637318
+    }
+  },
+  "pretrend_adjusted_models": {
+    "Full eligible sample": {
+      "coef": 0.09032031764013874,
+      "ci_low": -0.28307595331784097,
+      "ci_high": 0.4637165885981185
+    },
+    "Covariate-matched sample": {
+      "coef": 0.07832422038393716,
+      "ci_low": -0.3718373151358082,
+      "ci_high": 0.5284857559036825
+    }
+  },
+  "flow_outcomes": {
+    "Industrial firm stock growth": {
+      "coef": 0.06979486375016228,
+      "ci_low": 0.03386333583485914,
+      "ci_high": 0.10572639166546541,
+      "event_pretrend_p": 0.006382497279076273
+    },
+    "Night-light growth": {
+      "coef": -0.015852678340727698,
+      "ci_low": -0.056870338976340425,
+      "ci_high": 0.02516498229488503,
+      "event_pretrend_p": 1.4953519556569966e-08
+    },
+    "Construction-land growth": {
+      "coef": 0.0569728556755884,
+      "ci_low": 0.00806012797800408,
+      "ci_high": 0.10588558337317272,
+      "event_pretrend_p": 0.045085542364548065
+    }
+  },
+  "interpretation": "The exposure and spillover estimates are associations. The facility snapshot is current and does not identify the timing of local infrastructure."
+}

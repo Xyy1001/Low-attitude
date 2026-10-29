@@ -1,0 +1,32 @@
+{
+  "data_scope": "Virginia Eastern Shore pharmacy delivery scenario in the public OBrien drone-delivery dataset; not China policy evidence.",
+  "total_rows_in_file": 27164,
+  "rows_included_in_analysis": 19439,
+  "share_serviceable_2027": 0.8087864602088585,
+  "total_replaced_trips_2027": 104547.035688011,
+  "total_replaced_time_minutes_2027": 1735294.299828486,
+  "replaced_time_minutes_per_resident_2027": 49.87564244822539,
+  "serviceability_groups": [
+    {
+      "drone_serviceable": false,
+      "residences": 3717,
+      "median_ground_distance_miles": 2.89,
+      "median_ground_time_minutes": 4.23,
+      "mean_replaced_travel_time_minutes": 0.0,
+      "total_replaced_trips": 0.0,
+      "total_replaced_time_minutes": 0.0,
+      "total_residents": 6044.64
+    },
+    {
+      "drone_serviceable": true,
+      "residences": 15722,
+      "median_ground_distance_miles": 5.54,
+      "median_ground_time_minutes": 8.23,
+      "mean_replaced_travel_time_minutes": 110.37363565885295,
+      "total_replaced_trips": 104547.035688011,
+      "total_replaced_time_minutes": 1735294.299828486,
+      "total_residents": 28747.78
+    }
+  ],
+  "interpretation": "The exercise validates that a real access surface can generate large task-level time savings in selected locations. It does not identify land capitalization or firm entry and should not be extrapolated to China."
+}

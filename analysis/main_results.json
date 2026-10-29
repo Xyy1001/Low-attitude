@@ -1,0 +1,36 @@
+{
+  "sample_rows": 4199,
+  "sample_cities": 323,
+  "treated_cities": 9,
+  "years": [
+    2007,
+    2019
+  ],
+  "cluster": "citycode",
+  "outcome_transformation": "log1p after full-sample 1/99 winsorization",
+  "event_reference": -1,
+  "event_endpoints": {
+    "leads": "<= -6",
+    "lags": ">= 5"
+  },
+  "pretrend_tests": {
+    "ln_price": {
+      "F": 4.407155918159962,
+      "p": 0.0006766660032535526
+    },
+    "ln_area": {
+      "F": 2.2885285924641385,
+      "p": 0.04581423287374212
+    },
+    "ln_revenue": {
+      "F": 6.800107110395975,
+      "p": 4.791002676746842e-06
+    }
+  },
+  "minimum_detectable_effect_80pct_two_sided_5pct": {
+    "ln_price_1_99": 0.2902679236521228,
+    "interpretation": "Minimum absolute log-point effect detectable with the observed standard error under a normal approximation."
+  },
+  "high_tech_missing_rate": 1.0,
+  "spatial_interpretation": "Association only. The inverse-distance treatment of neighboring cities does not identify a causal spillover, and alternative distance thresholds must be compared."
+}

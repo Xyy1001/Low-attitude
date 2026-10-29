@@ -1,0 +1,128 @@
+{
+  "framework": {
+    "task": "explain",
+    "mark": [
+      "box",
+      "arrow"
+    ],
+    "encoding": {
+      "shape": "observed versus unobserved mechanism",
+      "position": "causal sequence",
+      "color": "evidence status"
+    },
+    "source": "conceptual synthesis; no estimated values"
+  },
+  "map": {
+    "task": "map",
+    "mark": [
+      "point",
+      "proportional_symbol"
+    ],
+    "encoding": {
+      "x": "longitude",
+      "y": "latitude",
+      "size": "log(1 + airport and heliport count within 50 km)",
+      "shape": "narrow versus regional pilot coding"
+    },
+    "projection": "WGS84 coordinates, equirectangular composition with latitude-adjusted aspect",
+    "source": "city_airport_exposure.csv and china_airports_snapshot.csv"
+  },
+  "event_study": {
+    "task": "trend and uncertainty",
+    "mark": [
+      "line",
+      "point",
+      "interval"
+    ],
+    "facet": "outcome and matching status",
+    "encoding": {
+      "x": "event time",
+      "y": "coefficient",
+      "y_interval": "95% CI"
+    }
+  },
+  "robustness": {
+    "task": "compare",
+    "mark": [
+      "point",
+      "interval"
+    ],
+    "facet": "specification sensitivity and leave-one-out",
+    "encoding": {
+      "x": "coefficient",
+      "y": "specification",
+      "color": "design family"
+    }
+  },
+  "randomization": {
+    "task": "distribution and reference",
+    "mark": [
+      "histogram",
+      "rule"
+    ],
+    "encoding": {
+      "x": "coefficient",
+      "y": "count",
+      "color": "observed value"
+    }
+  },
+  "mechanisms": {
+    "task": "compare and map attenuation",
+    "mark": [
+      "point",
+      "interval",
+      "line"
+    ],
+    "facet": "activity, decomposition, exposure, distance"
+  },
+  "simulation": {
+    "task": "compare estimators",
+    "mark": [
+      "point",
+      "bar"
+    ],
+    "encoding": {
+      "x": "effect",
+      "y": "scenario",
+      "shape": "estimator"
+    }
+  },
+  "external": {
+    "task": "compare groups",
+    "mark": [
+      "bar"
+    ],
+    "facet": "counts, distance, time"
+  },
+  "coverage": {
+    "task": "trend",
+    "mark": [
+      "line"
+    ],
+    "encoding": {
+      "x": "year",
+      "y": "nonmissing share",
+      "color": "variable"
+    }
+  },
+  "flow_outcomes": {
+    "task": "compare and diagnose",
+    "mark": [
+      "point",
+      "interval",
+      "bar"
+    ],
+    "facet": "effect and pre-trend p-value"
+  },
+  "synthetic_control": {
+    "task": "trend comparison and reference",
+    "mark": [
+      "line",
+      "bar"
+    ],
+    "encoding": {
+      "x": "year",
+      "y": "log price or gap"
+    }
+  }
+}

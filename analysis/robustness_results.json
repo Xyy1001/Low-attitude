@@ -1,0 +1,21 @@
+{
+  "matched_sample_cities": 33,
+  "matched_event_pretrend_f": 0.5322269722397507,
+  "matched_event_pretrend_p": 0.7502143160381106,
+  "leave_one_out_coef_range": [
+    0.04057555455545742,
+    0.1775539395501266
+  ],
+  "synthetic_control": {
+    "outcome": "ln_price",
+    "pre_rmse": 0.0006604031125653773,
+    "post_average_gap": 0.038381325939399545,
+    "pre_average_gap": 7.48291701753802e-05,
+    "did_gap": 0.038306496769224166,
+    "effective_controls": 17,
+    "max_weight": 0.12916272813902555,
+    "optimizer_success": true,
+    "interpretation": "Descriptive synthetic-control gap. No inferential p-value is claimed."
+  },
+  "robustness_note": "Alternative pilots are coding choices at the regional perimeter, not new source-verified city-level rollout dates."
+}

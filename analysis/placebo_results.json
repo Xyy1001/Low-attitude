@@ -1,0 +1,38 @@
+{
+  "fake_treatment_2010": {
+    "coef": 0.05807016109631993,
+    "se": 0.13539267327500254,
+    "sample_years": [
+      2007,
+      2013
+    ],
+    "interpretation": "A non-zero placebo indicates pre-existing differential paths."
+  },
+  "randomization_inference": {
+    "observed_coef": 0.1307023317156043,
+    "draws": 1000,
+    "seed": 20261029,
+    "pseudo_coef_mean": 0.0015016018528661004,
+    "pseudo_coef_sd": 0.11965097293371198,
+    "two_sided_p": 0.2857142857142857,
+    "one_sided_upper_p": 0.15184815184815184,
+    "pseudo_quantiles": {
+      "0.01": -0.27723306493579813,
+      "0.05": -0.18929182273061526,
+      "0.5": -0.0008086785021214444,
+      "0.95": 0.19413058118489784,
+      "0.99": 0.25616924718477946
+    },
+    "observed_treated_codes": [
+      1302,
+      2201,
+      3301,
+      3302,
+      3702,
+      4401,
+      5001,
+      5301,
+      6101
+    ]
+  }
+}
